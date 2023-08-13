@@ -12,5 +12,5 @@ export type JustTalk = typeof JUST_TALK;
 export type Misdemeanour = {
   citizenId: number;
   misdemeanour: MisdemeanourKind;
-  date: string;
+  date: string; // we'll stringify this for easy sending via HTTP rather than storing the full Date object
 };
