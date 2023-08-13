@@ -1,9 +1,9 @@
-import { Layout } from "./Layout";
+import Navlink from "./Navlink";
 
 const Header: React.FC = () => (
   <header className="header">
-    <h2>Header</h2>
-    <Layout />
+    <h2>FakeLandia Justice Department</h2>
+    <Navlink />
   </header>
 );
 
