@@ -1,11 +1,8 @@
 import { NavLink } from "react-router-dom";
 
 const Navlink: React.FC = () => (
-  <nav className="is-flex is-flex-grow is-justify-content-space-evenly">
-    <ul
-      style={{ width: "100%" }}
-      className="is-flex is-flex-direction-row is-justify-content-space-evenly"
-    >
+  <nav>
+    <ul>
       <li>
         <NavLink to="/"> Home </NavLink>
       </li>
